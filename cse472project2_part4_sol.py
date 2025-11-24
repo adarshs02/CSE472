@@ -106,6 +106,16 @@ def load_model(model_name, device):
     print(f"✓ Model loaded successfully on {device}")
     return tokenizer, model
 
+def load_both_models(llama_model_name, qwen_model_name, device):
+    """Load both Llama (for mediation) and Qwen (for simulation) models"""
+    print(f"\nLoading Llama model for mediation generation...")
+    llama_tokenizer, llama_model = load_model(llama_model_name, device)
+    
+    print(f"\nLoading Qwen model for user simulation...")
+    qwen_tokenizer, qwen_model = load_model(qwen_model_name, device)
+    
+    return llama_tokenizer, llama_model, qwen_tokenizer, qwen_model
+
 def select_cut_point(messages):
     """Select a random cut point in the middle portion of a conversation."""
     n = len(messages)
@@ -303,22 +313,22 @@ def simulate_user_reply(tokenizer, model, prefix_text, mediation_text, target_us
     response = tokenizer.decode(outputs[0][input_ids.shape[-1]:], skip_special_tokens=True)
     return response.strip()
 
-def process_conversation(item, tokenizer, model, progress_counter, total):
+def process_conversation(item, llama_tokenizer, llama_model, qwen_tokenizer, qwen_model, progress_counter, total):
     """Process a single conversation - generate mediations and simulate replies"""
     try:
-        # Generate mediations
-        steering_mediation = generate_mediation(tokenizer, model, item['prefix'], mode='steering')
-        judgment_mediation = generate_mediation(tokenizer, model, item['prefix'], mode='judgment')
+        # Generate mediations using Llama
+        steering_mediation = generate_mediation(llama_tokenizer, llama_model, item['prefix'], mode='steering')
+        judgment_mediation = generate_mediation(llama_tokenizer, llama_model, item['prefix'], mode='judgment')
         
         # Analyze user tone
         persona = analyze_user_tone(item['messages'], item['target_user'], item['cut_index'])
         
-        # Simulate replies
+        # Simulate replies using Qwen
         steering_reply = simulate_user_reply(
-            tokenizer, model, item['prefix'], steering_mediation, item['target_user'], persona
+            qwen_tokenizer, qwen_model, item['prefix'], steering_mediation, item['target_user'], persona
         )
         judgment_reply = simulate_user_reply(
-            tokenizer, model, item['prefix'], judgment_mediation, item['target_user'], persona
+            qwen_tokenizer, qwen_model, item['prefix'], judgment_mediation, item['target_user'], persona
         )
         
         result = {
@@ -350,7 +360,7 @@ def process_conversation(item, tokenizer, model, progress_counter, total):
         print(f"Error processing conversation {item['post_id']}: {e}")
         return None
 
-def run_parallel_simulation(simulation_data, tokenizer, model, num_threads=4):
+def run_parallel_simulation(simulation_data, llama_tokenizer, llama_model, qwen_tokenizer, qwen_model, num_threads=4):
     """Run simulation with multiple threads"""
     print(f"\n{'='*80}")
     print(f"Starting parallel processing with {num_threads} threads")
@@ -363,7 +373,8 @@ def run_parallel_simulation(simulation_data, tokenizer, model, num_threads=4):
     with ThreadPoolExecutor(max_workers=num_threads) as executor:
         # Submit all tasks
         future_to_item = {
-            executor.submit(process_conversation, item, tokenizer, model, progress_counter, total): item
+            executor.submit(process_conversation, item, llama_tokenizer, llama_model, 
+                          qwen_tokenizer, qwen_model, progress_counter, total): item
             for item in simulation_data
         }
         
@@ -434,8 +445,10 @@ def main():
                         help='Output file path for results')
     parser.add_argument('--hf_token', type=str, default=None,
                         help='Hugging Face authentication token (or set HF_TOKEN env variable)')
-    parser.add_argument('--model_name', type=str, default='meta-llama/Llama-3.2-3B-Instruct',
-                        help='Model name from Hugging Face')
+    parser.add_argument('--llama_model', type=str, default='meta-llama/Llama-3.2-3B-Instruct',
+                        help='Llama model for mediation generation')
+    parser.add_argument('--qwen_model', type=str, default='Qwen/Qwen2.5-3B-Instruct',
+                        help='Qwen model for user simulation')
     parser.add_argument('--num_threads', type=int, default=4,
                         help='Number of parallel threads for processing')
     parser.add_argument('--device', type=str, default='cuda' if torch.cuda.is_available() else 'cpu',
@@ -452,7 +465,8 @@ def main():
     print("="*80)
     print(f"Device: {args.device}")
     print(f"Threads: {args.num_threads}")
-    print(f"Model: {args.model_name}")
+    print(f"Llama Model (Mediation): {args.llama_model}")
+    print(f"Qwen Model (Simulation): {args.qwen_model}")
     print("="*80 + "\n")
     
     # Setup
@@ -462,14 +476,19 @@ def main():
     json_files = find_json_files(args.dataset_path)
     conversations = load_conversations(json_files)
     
-    # Load model
-    tokenizer, model = load_model(args.model_name, args.device)
+    # Load both models
+    llama_tokenizer, llama_model, qwen_tokenizer, qwen_model = load_both_models(
+        args.llama_model, args.qwen_model, args.device
+    )
     
     # Prepare simulation data
     simulation_data = prepare_simulation_data(conversations)
     
     # Run parallel simulation
-    results = run_parallel_simulation(simulation_data, tokenizer, model, args.num_threads)
+    results = run_parallel_simulation(
+        simulation_data, llama_tokenizer, llama_model, 
+        qwen_tokenizer, qwen_model, args.num_threads
+    )
     
     # Save results
     save_results(results, args.output_file)
@@ -482,8 +501,8 @@ def main():
     print("Part 4 Complete: User Simulation Evaluation")
     print("="*80)
     print(f"✓ Processed {len(results)} conversations")
-    print(f"✓ Generated {len(results) * 2} mediation interventions")
-    print(f"✓ Simulated {len(results) * 2} user responses")
+    print(f"✓ Generated {len(results) * 2} mediation interventions (Llama)")
+    print(f"✓ Simulated {len(results) * 2} user responses (Qwen)")
     print(f"✓ Results saved to: {args.output_file}")
     print("="*80)
 
