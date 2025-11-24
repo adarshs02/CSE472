@@ -117,17 +117,32 @@ def load_both_models(llama_model_name, qwen_model_name, device):
     return llama_tokenizer, llama_model, qwen_tokenizer, qwen_model
 
 def select_cut_point(messages):
-    """Select a random cut point in the middle portion of a conversation."""
+    """
+    Select a random cut point in the later portion of a conversation.
+    Cuts in the last 20-40% to ensure enough prior messages for persona analysis.
+    
+    Args:
+        messages: List of message dictionaries
+    
+    Returns:
+        cut_index: Index where to split (messages before this index form the prefix)
+    """
     n = len(messages)
     if n < 4:
         return None
     
-    # Cut in the middle 60% of the conversation (20% buffer on each end)
-    min_cut = max(2, int(n * 0.2))
-    max_cut = min(n - 2, int(n * 0.8))
+    # Cut in the later portion of the conversation (between 60-80% position)
+    # This ensures we have plenty of prior messages for persona analysis
+    min_cut = max(3, int(n * 0.6))  # Start at 60% through conversation
+    max_cut = min(n - 1, int(n * 0.8))  # End at 80% through conversation
+    
+    # Ensure we have at least 1 message left after the cut
+    if max_cut >= n:
+        max_cut = n - 1
     
     if min_cut >= max_cut:
-        return n // 2
+        # If conversation is very short, cut at 70% mark
+        return max(3, int(n * 0.7))
     
     return random.randint(min_cut, max_cut)
 
@@ -248,23 +263,90 @@ def generate_mediation(tokenizer, model, prefix_text, mode='steering'):
     
     return response.strip()
 
-def analyze_user_tone(messages, target_user, cut_index):
-    """Analyze the target user's tone and stance."""
+PERSONA_ANALYSIS_PROMPT = """You are analyzing a conversation participant's communication style and personality based on their previous messages.
+
+Previous messages from {target_user}:
+{user_messages}
+
+Instructions:
+Based on these messages, create a concise persona description (1 sentence) that captures:
+1. Their tone (e.g., aggressive, calm, sarcastic, respectful, dismissive, etc)
+2. Their argumentation style (e.g., evidence-based, emotional, confrontational, collaborative, etc)
+3. Their emotional state (e.g., frustrated, angry, patient, neutral, etc)
+
+OUTPUT FORMAT:
+{'persona': persona_text}
+"""
+
+def analyze_user_tone(qwen_tokenizer, qwen_model, messages, target_user, cut_index):
+    """
+    Analyze the target user's tone and stance using LLM-based analysis.
+    
+    Args:
+        qwen_tokenizer: Qwen tokenizer
+        qwen_model: Qwen model
+        messages: All conversation messages
+        target_user: The user we're analyzing
+        cut_index: Where we cut the conversation
+    
+    Returns:
+        persona_description: LLM-generated description of user's communication style
+    """
     user_messages = [msg for msg in messages[:cut_index] if msg.get('From') == target_user]
     
+    # If no previous messages, return default persona
     if not user_messages:
         return "neutral and respectful"
     
-    total_text = " ".join([msg.get('Reply_Text', '') for msg in user_messages])
+    # Format user's previous messages
+    formatted_messages = ""
+    for i, msg in enumerate(user_messages, 1):
+        text = msg.get('Reply_Text', '')
+        formatted_messages += f"Message {i}: {text}\n\n"
     
-    has_caps = sum(1 for word in total_text.split() if word.isupper() and len(word) > 2) > 0
-    has_exclamations = total_text.count('!') > 2
-    has_insults = any(word in total_text.lower() for word in ['idiot', 'stupid', 'dumb', 'ridiculous', 'absurd'])
+    # Truncate if too long (keep last 1000 chars to focus on recent behavior)
+    if len(formatted_messages) > 1000:
+        formatted_messages = "...\n\n" + formatted_messages[-1000:]
     
-    if has_caps or has_exclamations or has_insults:
-        return "argumentative, somewhat aggressive, and emotionally charged"
-    else:
-        return "assertive but relatively measured"
+    # Generate persona using Qwen
+    prompt = PERSONA_ANALYSIS_PROMPT.format(
+        target_user=target_user,
+        user_messages=formatted_messages.strip()
+    )
+    
+    messages_input = [{"role": "user", "content": prompt}]
+    
+    try:
+        input_ids = qwen_tokenizer.apply_chat_template(
+            messages_input,
+            add_generation_prompt=True,
+            return_tensors="pt"
+        ).to(qwen_model.device)
+        
+        outputs = qwen_model.generate(
+            input_ids,
+            max_new_tokens=100,
+            do_sample=True,
+            temperature=0.7,
+            top_p=0.9,
+            pad_token_id=qwen_tokenizer.eos_token_id
+        )
+        
+        persona = qwen_tokenizer.decode(outputs[0][input_ids.shape[-1]:], skip_special_tokens=True)
+        persona = persona['persona'].strip()
+        return persona
+        
+    except Exception as e:
+        print(f"Error generating persona for {target_user}: {e}")
+        # Fallback to simple heuristic
+        total_text = " ".join([msg.get('Reply_Text', '') for msg in user_messages])
+        has_caps = sum(1 for word in total_text.split() if word.isupper() and len(word) > 2) > 0
+        has_exclamations = total_text.count('!') > 2
+        
+        if has_caps or has_exclamations:
+            return "argumentative, somewhat aggressive, and emotionally charged"
+        else:
+            return "assertive but relatively measured"
 
 USER_SIMULATION_PROMPT = """You are simulating a conversation participant's response. 
 
@@ -282,7 +364,7 @@ Now, write {target_user}'s response to the moderator's intervention. Your respon
 2. React naturally to the moderator's message (you might accept it, reject it, or partially engage with it)
 3. Be realistic - not all users will immediately become calm after mediation
 
-Write ONLY {target_user}'s next message (2-4 sentences):"""
+Write ONLY {target_user}'s next message:"""
 
 def simulate_user_reply(tokenizer, model, prefix_text, mediation_text, target_user, persona):
     """Simulate how the target user would respond after seeing the mediation."""
@@ -320,8 +402,8 @@ def process_conversation(item, llama_tokenizer, llama_model, qwen_tokenizer, qwe
         steering_mediation = generate_mediation(llama_tokenizer, llama_model, item['prefix'], mode='steering')
         judgment_mediation = generate_mediation(llama_tokenizer, llama_model, item['prefix'], mode='judgment')
         
-        # Analyze user tone
-        persona = analyze_user_tone(item['messages'], item['target_user'], item['cut_index'])
+        # Analyze user tone using Qwen
+        persona = analyze_user_tone(qwen_tokenizer, qwen_model, item['messages'], item['target_user'], item['cut_index'])
         
         # Simulate replies using Qwen
         steering_reply = simulate_user_reply(
@@ -336,7 +418,7 @@ def process_conversation(item, llama_tokenizer, llama_model, qwen_tokenizer, qwe
             'cut_index': item['cut_index'],
             'target_user': item['target_user'],
             'persona': persona,
-            'conversation_prefix': item['prefix'],
+            # 'conversation_prefix': item['prefix'],
             'original_continuation': item['original_continuation'],
             'steering': {
                 'mediation_text': steering_mediation,
