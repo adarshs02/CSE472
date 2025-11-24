@@ -1,0 +1,28 @@
+{
+    "Post_Title": "It was my birthday over the weekend, this was my cake :)",
+    "post_text ": "nan",
+    "Threads": [
+        {
+            "Reply_Text": "That’s really pathetic lol. Typical redditor.",
+            "From": "WORDSWORDSWORDSx24",
+            "Reply_Score": -6,
+            "Timestamp": "2020-10-20 19:27:58",
+            "Replies": [
+                {
+                    "Reply_Text": "😂",
+                    "From": "_treVizUliL",
+                    "Reply_Score": 3,
+                    "Timestamp": "2020-10-20 23:48:55",
+                    "Replies": []
+                },
+                {
+                    "Reply_Text": "Lmao you're pathetic",
+                    "From": "Creative-Username11",
+                    "Reply_Score": 1,
+                    "Timestamp": "2020-10-21 15:00:02",
+                    "Replies": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,136 @@
+{
+    "Post_Title": "Linus, Fix the Billet Lab issue.",
+    "post_text ": "Linus,  \n\n\nWithout getting into the testing part, selling something you do not own is shameful.  \nAnd it's horrendous when it's a product from a small start up, their best prototype at that.  \n\n\nYou should feel ashamed.  \nFix it.   \nPlease.",
+    "Threads": [
+        {
+            "Reply_Text": "If this was a prototype under NDA or some type of other documentation, LTT could be in for a legal battle. This is straight up scummy what they did. I've never once had a client loan me an item for testing and then sell it. This doesn't happen with normal tech companies.",
+            "From": "LunarWulfe",
+            "Reply_Score": 49,
+            "Timestamp": "2023-08-14 19:50:50",
+            "Replies": [
+                {
+                    "Reply_Text": "If it was an NDA it wouldn’t have been in a video. Anybody here could model the cooler based on the video.",
+                    "From": "jakebeleren",
+                    "Reply_Score": 13,
+                    "Timestamp": "2023-08-14 21:36:39",
+                    "Replies": [
+                        {
+                            "Reply_Text": "NDAs have varying degrees of what they can show. I guarantee LTT signs an NDA and have strict guidelines on what they can and can't share about the product specifics. NDA could mean here that LTT can show the product but can't dismantle on camera or can't share the design file. Source: I have signing power for NDAs at the company I work for.",
+                            "From": "LunarWulfe",
+                            "Reply_Score": 12,
+                            "Timestamp": "2023-08-14 21:47:52",
+                            "Replies": [
+                                {
+                                    "Reply_Text": "I don't disagree, but LTT is the big corp here. Billet Labs may have been excited to get an opportunity and figured LTT wouldn't fuck them over so they went without a NDA. Or they may have feared LTT wouldn't work with them if they requested a NDA, or maybe they couldn't afford an attorney to work out an appropriate NDA. Lots of reasons why they may have went without a NDA. They should have got one, but I could understand that they may not have.\n\nLTT may have been coercive in this whole thing which is what we'll probably never know the truth about.",
+                                    "From": "mr_potatoface",
+                                    "Reply_Score": 1,
+                                    "Timestamp": "2023-08-14 22:19:39",
+                                    "Replies": [
+                                        {
+                                            "Reply_Text": "True. There is the ownership aspect, though. If this was a 1/1 prototype, there's no way it would have been sold to LMG and would have been on loan. Either way, the whole situation is problematic and scummy on LMG's part.",
+                                            "From": "LunarWulfe",
+                                            "Reply_Score": 1,
+                                            "Timestamp": "2023-08-14 22:36:52",
+                                            "Replies": []
+                                        },
+                                        {
+                                            "Reply_Text": "OR Billet may have come running up like a little puppy pleading for them to test it saying \"I'll do wtv it takes\" so LTT says yes. They don't have to be coercive.",
+                                            "From": "Kottypiqz",
+                                            "Reply_Score": 1,
+                                            "Timestamp": "2023-08-15 04:51:17",
+                                            "Replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Reply_Text": "[deleted]",
+                            "From": "[deleted]",
+                            "Reply_Score": 1,
+                            "Timestamp": "2023-08-14 22:17:59",
+                            "Replies": [
+                                {
+                                    "Reply_Text": "You do realize those were essentially high level diagrams, they were not technical at all and would vastly differ from actual engineering drawings.",
+                                    "From": "ScoobyDont06",
+                                    "Reply_Score": 2,
+                                    "Timestamp": "2023-08-15 00:09:08",
+                                    "Replies": [
+                                        {
+                                            "Reply_Text": "I am an engineering student. You are completely wrong. They showed a CAD file (specifically it seems to be a Fusion360 file) that shows everything you could ever want to know to build this thing. Not to mention heat transfer isn't some developing science. Its literally something we learn in sophomore physics. The only value of this block is in machining quality and materials, not design.",
+                                            "From": "[deleted]",
+                                            "Reply_Score": 1,
+                                            "Timestamp": "2023-08-15 04:59:24",
+                                            "Replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Reply_Text": "Couldn't a bespoke prototype of this nature could put LTT in \"felony theft\" territory?\n\nIMO it's analogous to Doug Demuro selling one of the cars he's test driving...",
+                    "From": "Heavy-Weekend-981",
+                    "Reply_Score": 2,
+                    "Timestamp": "2023-08-14 23:14:05",
+                    "Replies": []
+                },
+                {
+                    "Reply_Text": "Sadly, lawyers are the only true winners in lawsuits on most cases :(",
+                    "From": "etfvidal",
+                    "Reply_Score": 2,
+                    "Timestamp": "2023-08-14 20:36:43",
+                    "Replies": [
+                        {
+                            "Reply_Text": "Not true at all. Lawsuits exist for a reason.",
+                            "From": "[deleted]",
+                            "Reply_Score": 14,
+                            "Timestamp": "2023-08-14 21:09:24",
+                            "Replies": [
+                                {
+                                    "Reply_Text": "And they cost money and a LOT of time, which a 2 person startup does not have.\n\nIf they go the cheap route for lawyers that would take the case for cheap those lawyers will take all the winnings for themselves.",
+                                    "From": "Mataskarts",
+                                    "Reply_Score": 2,
+                                    "Timestamp": "2023-08-14 21:42:23",
+                                    "Replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "Reply_Text": "This is some of the most pseudo-intellectual bullshit sentiment that exists.",
+                            "From": "FlewOverCuckoldsNest",
+                            "Reply_Score": 4,
+                            "Timestamp": "2023-08-14 21:46:54",
+                            "Replies": [
+                                {
+                                    "Reply_Text": "Have you sued anyone in a civil or business matter? I take it that you have little to no experience with the legal system or are probably a delusional law student or in your honeymoon phase of being an actual lawyer. I've won a civil case in Federal Court and it was a worse experience than the issue that lead me to sue, and talked to tons of lawyers & even a few judges off the record and they all pretty much say the same thing. One judge even went so far to tell me that if if I think I will get \"justice\" in a court room that I'm an \"IDIOT\"! But maybe you are right and I'm spewing \"bullshit\", so please enlighten me and others on the correct way to sue and get \"justice\"!",
+                                    "From": "etfvidal",
+                                    "Reply_Score": 1,
+                                    "Timestamp": "2023-08-14 22:25:13",
+                                    "Replies": [
+                                        {
+                                            "Reply_Text": "when my parents divorced in 2020, they didn't have to split their assets 50/50 because of the marriage settlement. Unfortunately for my father, mother's lawyer found a badly formulated paragraph about the splitting of the properties in that settlement. Originally my father was the only owner of the house and the 340 m² garden which he inherited from his father. Mom's lawyer sued him and he had to sell the house and the property and split the money 50/50 with my mom. The lawyer just got paid for the hours and an additional 2000€ because he won the case and my mom wanted to do so. Mother got 600k € for that and father had to pay for the court and mom's lawyer too...\n\nMaybe you never had any experience with lawyers or it's just the difference of lawyers and courts between the EU and the USA ...\n\nIn short, YES, suing some one CAN make you rich",
+                                            "From": "ChangChong1989_06_04",
+                                            "Reply_Score": 1,
+                                            "Timestamp": "2023-08-14 23:22:49",
+                                            "Replies": [
+                                                {
+                                                    "Reply_Text": "Divorce court is a different animal.  And who said suing can't get a person rich? But the ones who almost always win are lawyers. And suing can also make you poor as well, so many companies had to go bankrupt because of legal fees that keep climbing with lawyers that milk clients for everything they have, it's hard to find good lawyers that will take a case on contingency & even then your not guaranteed anything!",
+                                                    "From": "etfvidal",
+                                                    "Reply_Score": 1,
+                                                    "Timestamp": "2023-08-14 23:58:38",
+                                                    "Replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

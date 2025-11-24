@@ -1,0 +1,709 @@
+{
+    "Post_Title": "Looks Like Assassin's Creed Valhalla Will Be 60FPS, 4K on PS5",
+    "post_text ": "nan",
+    "Threads": [
+        {
+            "Reply_Text": "The biggest shocker on this is that Ubisoft is actually optimizing their game to properly utilize the hardware. Even 2080Tis couldn’t do 4K 60 FPS on AC odyssey.\n\nEdit: Yes I understand there’s a difference between the low to mid to high to ultra settings. This wasn’t to say the 2080 sucks, it’s the opposite, 2080Ti is powerful and should run games really really well. But (especially at launch) it couldn’t run 4K 60 FPS on any settings (has since improved significantly). This is to say Ubisoft games are notoriously not optimized.\n\nAlso, the XSX ram Gears of War 5 at 4K, 60FPS (up to 100) on ultra settings with some settings not included on PC release. PS5 isn’t quite as powerful but just putting out as an example. This is not to trigger PCMR, if anything it’s to support it.",
+            "From": "lolwutsareddit",
+            "Reply_Score": 805,
+            "Timestamp": "2020-09-23 11:15:47",
+            "Replies": [
+                {
+                    "Reply_Text": "Consoles are much easiet to optimize for thats just a fact.\nConsoles have set specs so devs dont have to worry about dozens of pc configurations even with the 2080.",
+                    "From": "nielsthegamer",
+                    "Reply_Score": 384,
+                    "Timestamp": "2020-09-23 11:38:37",
+                    "Replies": [
+                        {
+                            "Reply_Text": "Most PCMR won't understand that. Source: I have such a friend.\n\nMost of the time you just buy expensive hardware to forcefully close the gap in optimization to run a game at stable 60+ FPS +- 4K and stuff. Effective but not efficient if you ask me.",
+                            "From": "Crucher92",
+                            "Reply_Score": 193,
+                            "Timestamp": "2020-09-23 11:50:49",
+                            "Replies": [
+                                {
+                                    "Reply_Text": "PC gaming youtubers always use Max settings as their benchmark.\n\nJust because something is 4k 60fps on console doesn't mean it's using Max settings.",
+                                    "From": "LordModlyButt",
+                                    "Reply_Score": 218,
+                                    "Timestamp": "2020-09-23 13:02:03",
+                                    "Replies": [
+                                        {
+                                            "Reply_Text": "Yep, in general consoles games are around medium settings. But this is a crossgen title so chances are that the settings used are around high or more. But we'll see soon enough with digitalfoundry hahaha",
+                                            "From": "[deleted]",
+                                            "Reply_Score": 59,
+                                            "Timestamp": "2020-09-23 14:06:04",
+                                            "Replies": [
+                                                {
+                                                    "Reply_Text": "not medium but a mix of low up to max to utilize the system to the fullest on their current engine.",
+                                                    "From": "[deleted]",
+                                                    "Reply_Score": 33,
+                                                    "Timestamp": "2020-09-23 14:26:07",
+                                                    "Replies": [
+                                                        {
+                                                            "Reply_Text": "RDR2 on Xbox One X literally used settings lower than low on PC, its all over the board",
+                                                            "From": "[deleted]",
+                                                            "Reply_Score": 6,
+                                                            "Timestamp": "2020-09-23 17:04:09",
+                                                            "Replies": []
+                                                        },
+                                                        {
+                                                            "Reply_Text": "And then shadows are usually set as low as possible because of the weak cpu's.",
+                                                            "From": "drumrocker2",
+                                                            "Reply_Score": 11,
+                                                            "Timestamp": "2020-09-23 15:30:50",
+                                                            "Replies": [
+                                                                {
+                                                                    "Reply_Text": "Actually, I've noticed that shadows are usually better than low on console. Since I transitioned from PC to console, I noticed that shadows that I always turned to the lowest PC setting are actually really great on console in a lot of cases.\n\nI never knew how far I could push the shadows to not get a huge performance hit, so I left them on Low. Devs know exactly what shadow quality to use on the console version. In my case, it's been a huge improvement.",
+                                                                    "From": "Steakpiegravy",
+                                                                    "Reply_Score": 4,
+                                                                    "Timestamp": "2020-09-23 16:51:40",
+                                                                    "Replies": []
+                                                                },
+                                                                {
+                                                                    "Reply_Text": "with the new ryzen gen, i don't think that is gonna be a problem",
+                                                                    "From": "Inakitxo9",
+                                                                    "Reply_Score": 8,
+                                                                    "Timestamp": "2020-09-23 15:42:34",
+                                                                    "Replies": [
+                                                                        {
+                                                                            "Reply_Text": "I think since Ray Tracing will be a thing it won't be an issue at all",
+                                                                            "From": "ArtakhaPrime",
+                                                                            "Reply_Score": 4,
+                                                                            "Timestamp": "2020-09-23 16:25:44",
+                                                                            "Replies": []
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "Reply_Text": "tbf low/medium shadows often looks better.\n\nI never see really crisp shadows in real life",
+                                                                    "From": "Crucher92",
+                                                                    "Reply_Score": 5,
+                                                                    "Timestamp": "2020-09-23 15:57:00",
+                                                                    "Replies": [
+                                                                        {
+                                                                            "Reply_Text": "Depends on the shadows... skyrim shadows just became straight blocky lines on lower settings.",
+                                                                            "From": "GenocidalSloth",
+                                                                            "Reply_Score": 2,
+                                                                            "Timestamp": "2020-09-23 21:28:32",
+                                                                            "Replies": []
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "Reply_Text": "Shadows are insanely GPU-dependent in most all cases.  The only time they really push a CPU is when shadow draw distances are pushed out.",
+                                                                    "From": "Seanspeed",
+                                                                    "Reply_Score": 2,
+                                                                    "Timestamp": "2020-09-23 18:32:18",
+                                                                    "Replies": [
+                                                                        {
+                                                                            "Reply_Text": "Shadows and reflections have traditionally been CPU heavy, not GPU",
+                                                                            "From": "kicking_puppies",
+                                                                            "Reply_Score": 2,
+                                                                            "Timestamp": "2020-09-23 23:17:30",
+                                                                            "Replies": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Reply_Text": "It could just as easily mean that the last gen consoles are running the game at low! Honestly I wouldn't be surprised considering how this is the end of a generation.",
+                                                    "From": "tomariscool",
+                                                    "Reply_Score": 3,
+                                                    "Timestamp": "2020-09-23 15:53:28",
+                                                    "Replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Reply_Text": "MASSIVE FACTS HERE. Resolution and framerate as the only metrics is stupid as shit.",
+                                            "From": "BeingRightAmbassador",
+                                            "Reply_Score": 5,
+                                            "Timestamp": "2020-09-23 18:29:35",
+                                            "Replies": []
+                                        },
+                                        {
+                                            "Reply_Text": "Yeah. Simultaneously “pc gaming isn’t more expensive!” and “Consoles run things like trash compared to a $3500 PC”",
+                                            "From": "PoopIsAlwaysSunny",
+                                            "Reply_Score": 13,
+                                            "Timestamp": "2020-09-23 15:32:59",
+                                            "Replies": [
+                                                {
+                                                    "Reply_Text": "PC gaming isn't necessarily more expensive. Since 2018 I could build a pc for $500 that plays most games at high settings. And considering I'll save money from not buying subscriptions the price of a console ends up going up over time while pc does not.\n\nEven if I built a $700 pc at the start of the last gen, I would have spent less than someone who bought a console. A ps4 was $400 at launch and by the end of it with ps plus it will have been a total of $820. Which means I saved $120 from going pc.\n\nAnd with the people who upgraded to a ps4 pro that adds an extra $400 widens the gap as its now at $1220. Could the person who went pc have upgraded? Sure, but that amount is enough to where upgrading is not needed.",
+                                                    "From": "[deleted]",
+                                                    "Reply_Score": 1,
+                                                    "Timestamp": "2020-09-23 18:46:43",
+                                                    "Replies": [
+                                                        {
+                                                            "Reply_Text": "PSPlus is only recently $60, used to be $50, and is often on sale for 30-40, so your math is off. And if you invested $700 when ps4 launched it would be worth more than that now. People who upgraded probably got $200 back for their original system (or have 2 now).\n\nYou’re just trying to make consoles sound more expensive than they are, while denying the true cost of a PC (do you account for a controller, keyboard, and mouse in your figures? Cables? Most $500 builds I’ve seen are complete shit and won’t handle any recent games, much less future ones)",
+                                                            "From": "PoopIsAlwaysSunny",
+                                                            "Reply_Score": 3,
+                                                            "Timestamp": "2020-09-23 19:59:18",
+                                                            "Replies": [
+                                                                {
+                                                                    "Reply_Text": "100% agreed. PS Plus also over the PS4 lifespan is giving hundreds of free games to play. SUPER disegenuous to state \"saving\" plus $ as of the only benefit is multiplayer.",
+                                                                    "From": "Whats-his-nuts",
+                                                                    "Reply_Score": 4,
+                                                                    "Timestamp": "2020-09-23 20:43:15",
+                                                                    "Replies": [
+                                                                        {
+                                                                            "Reply_Text": "Yeah. There’s usually 2 games a month, an easy to use voice party system that you can use to join friends in games, and as I mentioned before, you can get a year for $30",
+                                                                            "From": "PoopIsAlwaysSunny",
+                                                                            "Reply_Score": 2,
+                                                                            "Timestamp": "2020-09-23 21:24:36",
+                                                                            "Replies": []
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "Reply_Text": "I played for the better part of the decade off an 4th gen i5 and 750ti, $550 in all, including peripherals. You'd be surprised at the mileage I got, and you'd have to add in at least the equiv cost of XBL/PSN times 6 years. I was playing even relatively new games up until recently, albeit on low-medium - but that's not too different than consoles either. I could raid in Destiny 2 and play 225+ player battles in GW2 WvW (hell I only get ten more fps now with a ryzen 3900x in said battles lol).",
+                                                                    "From": "ExtraFriendlyFire",
+                                                                    "Reply_Score": 3,
+                                                                    "Timestamp": "2020-09-23 21:32:06",
+                                                                    "Replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Reply_Text": "The thing is that on console, the devs utilise options they never give you in the PC settings. You can't choose the specific resolution at which shadows render for example. You can't choose to render raytracing at 1080p while the rest of the game is rendered at 4K or something.\n\nAnd that's the thing, most of the time, using these options by the devs has minimal impact on visual quality. Hell, despite how limited the hardware of this gen was even at release, we got some astonightly amazing-looking games in the last 7 years.\n\nIf a game looks gorgeous, do you care if it's Medium or Ultra settings? And at this point, the Medium textures look so amazing that devs can use those and focus on improving framerate.",
+                                            "From": "Steakpiegravy",
+                                            "Reply_Score": 3,
+                                            "Timestamp": "2020-09-23 16:49:15",
+                                            "Replies": []
+                                        },
+                                        {
+                                            "Reply_Text": "This is what worries me. I would rather have high settings at 1440p or even 1080p than medium settings at 4k. Hopefully these titles that do 4k 60 will be able to do it with high settings if not they should lower resolution.\n\nGraphical quality > fps > resolution",
+                                            "From": "RecoveredAshes",
+                                            "Reply_Score": 2,
+                                            "Timestamp": "2020-09-23 20:04:45",
+                                            "Replies": []
+                                        },
+                                        {
+                                            "Reply_Text": "This. Fucking ppl never learn. Is it so hard to google and read how shit works now?",
+                                            "From": "atmus11",
+                                            "Reply_Score": 19,
+                                            "Timestamp": "2020-09-23 13:15:37",
+                                            "Replies": [
+                                                {
+                                                    "Reply_Text": "Well if it doesnt fit my narrative of the subject why would i want to know about it? /s",
+                                                    "From": "[deleted]",
+                                                    "Reply_Score": 30,
+                                                    "Timestamp": "2020-09-23 13:22:00",
+                                                    "Replies": []
+                                                },
+                                                {
+                                                    "Reply_Text": "It's been like this for a long time. I remember PC vs console arguments 20 years ago. The arguments were very similar back then as well. Some things never change.",
+                                                    "From": "LeCrushinator",
+                                                    "Reply_Score": 3,
+                                                    "Timestamp": "2020-09-23 16:12:23",
+                                                    "Replies": []
+                                                },
+                                                {
+                                                    "Reply_Text": "Well its not \"these people\" there are some who legit think pc gaming is far superior in every way to consol but i dont know any personally besides reddit. Many pc people do it ad a hobby. My self included. Its fun seeing how far you can push a pc, kinda like cars. But im still getting a ps5.",
+                                                    "From": "Princep_Makia1",
+                                                    "Reply_Score": 5,
+                                                    "Timestamp": "2020-09-23 15:28:56",
+                                                    "Replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Reply_Text": "Pretty much this.",
+                                            "From": "ocbdare",
+                                            "Reply_Score": 3,
+                                            "Timestamp": "2020-09-23 14:46:28",
+                                            "Replies": []
+                                        },
+                                        {
+                                            "Reply_Text": "Also the amount that DRS is used these days means any claim of 4K from a console I’m going to have to wait for the pixel counters to verify. Can’t wait for my supposedly 4K game to drop to 1440p to maintain 60fps!",
+                                            "From": "IHATEAB",
+                                            "Reply_Score": 2,
+                                            "Timestamp": "2020-09-23 15:01:06",
+                                            "Replies": [
+                                                {
+                                                    "Reply_Text": "So are you admitting that you can’t tell the difference very well unless an expert has to count pixels and then tells you if there is a difference??",
+                                                    "From": "Lifea",
+                                                    "Reply_Score": 2,
+                                                    "Timestamp": "2020-09-23 16:40:21",
+                                                    "Replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Reply_Text": "PS5 won't be max settings LUL",
+                                            "From": "[deleted]",
+                                            "Reply_Score": 3,
+                                            "Timestamp": "2020-09-23 15:40:37",
+                                            "Replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Reply_Text": "I’ve had countless arguments about this with PCMR people and it’s always mind boggling. It seems that to them PC games always work perfectly and there are never any issues but anytime I actually am around someone trying to play a PC game there are always extra steps before making it happen.",
+                                    "From": "whacafan",
+                                    "Reply_Score": 16,
+                                    "Timestamp": "2020-09-23 14:30:58",
+                                    "Replies": [
+                                        {
+                                            "Reply_Text": "Yep. I fully understand that if I throw enough money at a PC, my game will look and run better than on my console. Back in 2014 I decided to go down that route and built a pretty decent gaming PC and... didn't end up gaming on it that much. I spend too much time fiddling with graphics settings and mods that I never end up finishing a game. I prefer consoles for the simplicity.",
+                                            "From": "TheWhiteHunter",
+                                            "Reply_Score": 16,
+                                            "Timestamp": "2020-09-23 14:53:36",
+                                            "Replies": [
+                                                {
+                                                    "Reply_Text": "I had almost the exact same experience but in 2013. Spent a lot of time overclocking my cpu and video card until everything could run stable. Then spent a decent amount of time figuring out which settings each game ran the best at. But other than replaying Skyrim with a dozen awesome mods, I really didn't play much on my PC after that.",
+                                                    "From": "Level_Potato_42",
+                                                    "Reply_Score": 9,
+                                                    "Timestamp": "2020-09-23 15:35:48",
+                                                    "Replies": [
+                                                        {
+                                                            "Reply_Text": "Being able to play really good games is more important than being able to play at high frame rates and resolutions. Better graphics are great but I’d rather play Bloodborne at 720p 30fps over anything I can play on my PC.",
+                                                            "From": "[deleted]",
+                                                            "Reply_Score": 2,
+                                                            "Timestamp": "2020-09-23 18:59:01",
+                                                            "Replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Reply_Text": "What extra steps? Own PC, and console. Both of them just requires me to pick a game and play it. What extra steps are there? And most of the time, PC gaming loads faster because it have SSDs for years now.\n\nAlso 4k@60fps on consoles =/= highest graphics settings.",
+                                            "From": "ggjunior7799",
+                                            "Reply_Score": 1,
+                                            "Timestamp": "2020-09-23 15:14:36",
+                                            "Replies": [
+                                                {
+                                                    "Reply_Text": "This guy is just trolling",
+                                                    "From": "Lifea",
+                                                    "Reply_Score": 2,
+                                                    "Timestamp": "2020-09-23 16:41:45",
+                                                    "Replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Reply_Text": "Wat",
+                                            "From": "metaornotmeta",
+                                            "Reply_Score": 2,
+                                            "Timestamp": "2020-09-23 15:04:16",
+                                            "Replies": []
+                                        },
+                                        {
+                                            "Reply_Text": "“PC gaming isn’t any extra work! But also to make this game work you need to fuck with drivers, registration, and .ini files for four hours and it still crashes every thirty minutes”",
+                                            "From": "PoopIsAlwaysSunny",
+                                            "Reply_Score": 1,
+                                            "Timestamp": "2020-09-23 15:34:34",
+                                            "Replies": [
+                                                {
+                                                    "Reply_Text": "I've never done any of those things for a single one of my 120 games on steam, 20 games on origin, battlenet games, etc.",
+                                                    "From": "IAmTriscuit",
+                                                    "Reply_Score": 5,
+                                                    "Timestamp": "2020-09-23 17:18:06",
+                                                    "Replies": []
+                                                },
+                                                {
+                                                    "Reply_Text": "I've never messed with any of that to get a game to work. That might have been true 20+ years ago but definitely not now. I do upgrade my drivers but it's just clicking \"update\" on the nvidia control panel.",
+                                                    "From": "[deleted]",
+                                                    "Reply_Score": 5,
+                                                    "Timestamp": "2020-09-23 18:51:12",
+                                                    "Replies": []
+                                                },
+                                                {
+                                                    "Reply_Text": "This is such a bullshit post.\n\nY'all are fucking sad ass platform warriors, I swear.  Every bit as bad as PC masterrace idiots.",
+                                                    "From": "Seanspeed",
+                                                    "Reply_Score": 4,
+                                                    "Timestamp": "2020-09-23 18:35:22",
+                                                    "Replies": []
+                                                },
+                                                {
+                                                    "Reply_Text": "Are you commenting from 1997? I own ps4 and high end pc. Both are spectacular and both are easy to use.",
+                                                    "From": "ColossalJuggernaut",
+                                                    "Reply_Score": 6,
+                                                    "Timestamp": "2020-09-23 15:46:24",
+                                                    "Replies": []
+                                                },
+                                                {
+                                                    "Reply_Text": "Yeah, maybe in the 1990s. For whatever reason, you have pledged allegiance to a multi-billion dollar company so we can’t take your opinion seriously.",
+                                                    "From": "[deleted]",
+                                                    "Reply_Score": 3,
+                                                    "Timestamp": "2020-09-23 16:11:14",
+                                                    "Replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Reply_Text": "Owning all the platforms gang is the superior... and poorer gang",
+                                    "From": "PoolNoodleJedi",
+                                    "Reply_Score": 2,
+                                    "Timestamp": "2020-09-23 22:00:04",
+                                    "Replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "Reply_Text": "And that’s why Jedi fallen order couldn’t hit 30 FPS 1080p on the ps4 pro... it’s situational",
+                            "From": "COSMICKNIGHT77",
+                            "Reply_Score": 9,
+                            "Timestamp": "2020-09-23 13:14:32",
+                            "Replies": [
+                                {
+                                    "Reply_Text": "Youre forgetting that JFO is terribly optimized",
+                                    "From": "communismisbadlul",
+                                    "Reply_Score": 11,
+                                    "Timestamp": "2020-09-23 13:52:55",
+                                    "Replies": [
+                                        {
+                                            "Reply_Text": "I mean, yeah. That's like complaining that Ark: Survival Evolved is badly optimized.\n\nObviously Ark is much worse than Fallen Order, but you get my point. No one is praising Fallen Order for it's \"optimization\".",
+                                            "From": "[deleted]",
+                                            "Reply_Score": 9,
+                                            "Timestamp": "2020-09-23 14:00:44",
+                                            "Replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Reply_Text": "Bro last gen cpu was weak this time we have ryzen on consoles which is almost double cores and double frequency that’s making this generation awesome not more gpu power, games already look a quite good on current gen systems  , see ghost of tushima god of war Ac odyssey too and that nvme drive will make open world games load faster so more seamless worlds no more loading screens when opening every door on next Skyrim lol , kidding I loved loading screens of skyrim",
+                                    "From": "hakunamatata117",
+                                    "Reply_Score": 5,
+                                    "Timestamp": "2020-09-23 14:38:56",
+                                    "Replies": []
+                                },
+                                {
+                                    "Reply_Text": "Could you explain this further?",
+                                    "From": "[deleted]",
+                                    "Reply_Score": 4,
+                                    "Timestamp": "2020-09-23 13:22:39",
+                                    "Replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "Reply_Text": "Yeah but Ubisoft still is shit about optimization lol so it was obvious the hardware for both XSX and PS5 could get 60 FPS if they took the time to do it. It was more would they take the time and effort to do it.",
+                            "From": "lolwutsareddit",
+                            "Reply_Score": 4,
+                            "Timestamp": "2020-09-23 11:53:45",
+                            "Replies": [
+                                {
+                                    "Reply_Text": "Was also likely an issue with the weak Jaguar cores and the older Unity engine.",
+                                    "From": "SoloDolo314",
+                                    "Reply_Score": 3,
+                                    "Timestamp": "2020-09-23 14:33:36",
+                                    "Replies": [
+                                        {
+                                            "Reply_Text": "Yeah generally ubisoft games are pretty damn reliant on CPU, and considering the current gen's CPUs.... It's not surprising that they don't perform amazing on them.",
+                                            "From": "[deleted]",
+                                            "Reply_Score": 5,
+                                            "Timestamp": "2020-09-23 14:48:39",
+                                            "Replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Reply_Text": "You say that, but making games for the PS3 was 10x harder than the 360.",
+                            "From": "[deleted]",
+                            "Reply_Score": 2,
+                            "Timestamp": "2020-09-23 13:22:40",
+                            "Replies": [
+                                {
+                                    "Reply_Text": "That comes down to the 360 having PowerPC architecture vs the cell processor in the ps3..",
+                                    "From": "wellfuckingshit",
+                                    "Reply_Score": 2,
+                                    "Timestamp": "2020-09-23 14:57:12",
+                                    "Replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "Reply_Text": "Not necessarily, the main advantage is the standardized feature set.",
+                            "From": "metaornotmeta",
+                            "Reply_Score": 1,
+                            "Timestamp": "2020-09-23 15:03:29",
+                            "Replies": []
+                        },
+                        {
+                            "Reply_Text": "You are kinda right and kinda wrong. Drivers allow games to work with all the varying hardware you speak of on PC. NVIDIA and AMD release updates for their drivers that allow their GPU's to support the game in the most efficient and capable ways. There's some work by the devs to get any specific features on board, but none more than consoles. That's just speaking in terms of capability.\n\n\nThis \"optimization\" that consoles have is just the devs going in and saying \"we can put the grass at medium, the render distance at high, and the texture quality at ultra.\" Sometimes they go in-between those settings, like a medium-high setting but it's all just a puzzle to see what they can sacrifice to reach the desired resolution while not losing too much visual fidelity. PC's can do that too, it just takes some work from the user by reading guides, watching the DF videos, or just experimenting to see what you need to do to get it working well. NVIDIA actually has a program that optimizes games for you based on what they consider the best experience for your graphics card to be. It's hit or miss, but a decent option for those unaware of what to do when it comes to game settings. So while consoles are more plug and play and easier for the user, the devs don't put in any effort for optimization on PC because that's the users choice on PC. Not everyone wants 4K high, some want 1440 Ultra.",
+                            "From": "TechGuruGJ",
+                            "Reply_Score": 1,
+                            "Timestamp": "2020-09-23 15:51:09",
+                            "Replies": []
+                        },
+                        {
+                            "Reply_Text": "Thank you. It's funny how people then say that generations are holding games back.",
+                            "From": "xileWabbit",
+                            "Reply_Score": 1,
+                            "Timestamp": "2020-09-24 01:27:51",
+                            "Replies": []
+                        }
+                    ]
+                },
+                {
+                    "Reply_Text": "Graphics settings matter. Thats an important variable that people often leave out.\n\nYou can run any game at 4K60 if you lower graphics settings enough.",
+                    "From": "Jutang13",
+                    "Reply_Score": 33,
+                    "Timestamp": "2020-09-23 14:42:24",
+                    "Replies": [
+                        {
+                            "Reply_Text": "I don’t know at what point people lost sight of this, but  nobody brings this up anymore. It’s one of the most basic concepts...there’s very little equivalency between platforms since they’re running different settings. You can’t compare them.",
+                            "From": "axck",
+                            "Reply_Score": 9,
+                            "Timestamp": "2020-09-23 17:06:28",
+                            "Replies": [
+                                {
+                                    "Reply_Text": "Its not something console gamers think about because console games are optimised for the console and typically lack graphics settings.\n\nBut saying the 2080ti cant play ACO at 4K60 and the PS5 can is potentially missing an important point. Im willing to bet it will look markedly worse on PS5 vs a 2080ti system.",
+                                    "From": "Jutang13",
+                                    "Reply_Score": 6,
+                                    "Timestamp": "2020-09-23 17:09:01",
+                                    "Replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Reply_Text": "They could but not at ultra settings. If you target higher frame rates you choose visual settings more like medium or low where there’s little visual difference but big performance uplift.\n\nIIRC I gained like 20% performance by changing the cloud quality from ultra to medium and couldn’t tell what it did.",
+                    "From": "aiiye",
+                    "Reply_Score": 8,
+                    "Timestamp": "2020-09-23 14:30:46",
+                    "Replies": [
+                        {
+                            "Reply_Text": "Yup yup, which is what I was trying to say.",
+                            "From": "lolwutsareddit",
+                            "Reply_Score": 2,
+                            "Timestamp": "2020-09-23 16:12:54",
+                            "Replies": []
+                        }
+                    ]
+                },
+                {
+                    "Reply_Text": "Yeah, with maxed out settings, console don't run at maxed out settings because you're giving away lots of performance for minimal visual gain.",
+                    "From": "[deleted]",
+                    "Reply_Score": 22,
+                    "Timestamp": "2020-09-23 12:21:37",
+                    "Replies": [
+                        {
+                            "Reply_Text": "https://www.reddit.com/r/PS5/comments/iy7cbz/looks_like_assassins_creed_valhalla_will_be_60fps/g6cae7q/?utm_source=share&utm_medium=ios_app&utm_name=iossmf&context=3",
+                            "From": "lolwutsareddit",
+                            "Reply_Score": 1,
+                            "Timestamp": "2020-09-23 18:09:35",
+                            "Replies": []
+                        }
+                    ]
+                },
+                {
+                    "Reply_Text": "[deleted]",
+                    "From": "[deleted]",
+                    "Reply_Score": 15,
+                    "Timestamp": "2020-09-23 14:27:12",
+                    "Replies": []
+                },
+                {
+                    "Reply_Text": "Odyssey supports dynamic resolution, and I would wager that will be used to maintain 60fps.",
+                    "From": "th3groveman",
+                    "Reply_Score": 3,
+                    "Timestamp": "2020-09-23 14:53:01",
+                    "Replies": []
+                },
+                {
+                    "Reply_Text": "I'll believe it when I play it. (or watch Digital Foundry)",
+                    "From": "EdinburghMan16",
+                    "Reply_Score": 3,
+                    "Timestamp": "2020-09-23 15:27:27",
+                    "Replies": []
+                },
+                {
+                    "Reply_Text": "Ah, so this is why performance on my OC i5-8600k/2070 Super is so abysmal?\n\nI was wondering why I had no trouble running Jedi: Fallen Order at consistent 60 FPS, but constantly experience severe frame drops in Odyssey.",
+                    "From": "InconspicuousRadish",
+                    "Reply_Score": 5,
+                    "Timestamp": "2020-09-23 12:43:17",
+                    "Replies": [
+                        {
+                            "Reply_Text": "You have issues likely for 2 reasons - AC games are notoriously CPU heavy because of all the huge populated areas and computing all that NPC AI. A Ryzen 5 3600 would improve your 1% lows, because the 8600K doesn't have enough threads. Your CPU utilisation is probably in the 80%+ range.\n\nPlus another crap with AC games on PC is their built-in DRM, which uses a lot of CPU resources just to verify you're playing a legit copy of the game.",
+                            "From": "Steakpiegravy",
+                            "Reply_Score": 2,
+                            "Timestamp": "2020-09-23 17:11:37",
+                            "Replies": []
+                        },
+                        {
+                            "Reply_Text": "Yeah Ubisoft games are notorious about that. You’re rigs perfectly fine.",
+                            "From": "lolwutsareddit",
+                            "Reply_Score": 1,
+                            "Timestamp": "2020-09-23 16:09:39",
+                            "Replies": []
+                        },
+                        {
+                            "Reply_Text": "Are you trying to play it at 4k? I have a similar build to you (9600k+ 2070 super+16gb ram) and can play both maxed out at 1440p at a constant 60fps, the 2070 super just can't handle 4k on nearly anything but the best 1440p card on the market for it's money by far",
+                            "From": "[deleted]",
+                            "Reply_Score": 1,
+                            "Timestamp": "2020-09-23 22:51:53",
+                            "Replies": []
+                        }
+                    ]
+                },
+                {
+                    "Reply_Text": "I thought I was fucking nuts playing Odyssey on my PC because usually I have no problem cranking up graphics and getting 60fps but holy fuck that game runs like shit",
+                    "From": "WebHead1287",
+                    "Reply_Score": 2,
+                    "Timestamp": "2020-09-24 02:27:01",
+                    "Replies": []
+                },
+                {
+                    "Reply_Text": "My 980ti couldn't run AC odyssey at 1080p steady 60fps even at the lowest settings. I have a 6700k and 64gb ram. There's nothing wrong with my system, I have 2 980ti cards and played witcher 3 ultra settings 100+ frames",
+                    "From": "SuliApexx",
+                    "Reply_Score": 3,
+                    "Timestamp": "2020-09-23 12:18:42",
+                    "Replies": [
+                        {
+                            "Reply_Text": "Yeah but Ubisoft is notoriously bad about optimization and stuff so that’s not surprising at all.\n\nMeanwhile CDPR will somehow make the Witcher 3 upgrade on next gen run true 4K, full Raytracing, 360 FPS and have Henry cavil come into your house and give you a high five with no stress on the system.",
+                            "From": "lolwutsareddit",
+                            "Reply_Score": 27,
+                            "Timestamp": "2020-09-23 12:29:05",
+                            "Replies": [
+                                {
+                                    "Reply_Text": "They managed to run Witcher 3 on Switch but that probably involved dark magic and blood sacrifices.",
+                                    "From": "Magnesus",
+                                    "Reply_Score": 10,
+                                    "Timestamp": "2020-09-23 12:41:13",
+                                    "Replies": [
+                                        {
+                                            "Reply_Text": "Ran like shit on launch on the PS4, love the game it’s a lot better now",
+                                            "From": "[deleted]",
+                                            "Reply_Score": 3,
+                                            "Timestamp": "2020-09-23 13:09:29",
+                                            "Replies": []
+                                        },
+                                        {
+                                            "Reply_Text": "That wasn't ported by cd project red.",
+                                            "From": "mr_lucky19",
+                                            "Reply_Score": 2,
+                                            "Timestamp": "2020-09-23 13:09:35",
+                                            "Replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Reply_Text": "Do you have hair tech on , my next gen wish is Witcher 3 4K with hair works on full lol, my gtx 1060 wasn’t able to handle that, good thing I never finished now that are remastering awesome",
+                            "From": "hakunamatata117",
+                            "Reply_Score": 3,
+                            "Timestamp": "2020-09-23 14:42:05",
+                            "Replies": [
+                                {
+                                    "Reply_Text": "I had hair tech on and I was actually surprised it didn't even have a hit on my frames, I was quite shocked cus i remember everyone complaining about it, smooth 100fps ultra settings 2K resolution.",
+                                    "From": "SuliApexx",
+                                    "Reply_Score": 2,
+                                    "Timestamp": "2020-09-23 14:49:29",
+                                    "Replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "Reply_Text": "huh, 3900x and a 1660ti and I could hit 60fps 1440p mostly cranked - sli might be fucking you there",
+                            "From": "ExtraFriendlyFire",
+                            "Reply_Score": 1,
+                            "Timestamp": "2020-09-23 21:42:30",
+                            "Replies": []
+                        }
+                    ]
+                },
+                {
+                    "Reply_Text": "My brother was able to get 4k 32fps on the Ultra High preset on AC Odyssey on his PC that was roughly $1000 to build. He hit 4k 60 by turning down settings, very much in the same way that the consoles will achieve 4k 60. This was on a rtx 2060 super which isn't a high end card, closer to a mid-range card from 2019. A 2080ti could do 4k 60 on ACO.\n\nWhen Odyssey first came out it had horrible optimization problems on all fronts. I bought the game shortly after launch on my PS4 pro and returned it because I wasn't happy with the quality of the game. I returned to it back in March on my PC and much to my surprise the game's optimization and gameplay issues were mostly fixed. The game is in a good state now and I loved my 100+ hrs with it.\n\nAt this point it isn't worth getting too hyped for Valhalla. Let's wait and see how it actually holds up when we get the game.",
+                    "From": "Claymoresama",
+                    "Reply_Score": 2,
+                    "Timestamp": "2020-09-23 14:54:21",
+                    "Replies": []
+                },
+                {
+                    "Reply_Text": "Do you mean 2080ti couldn’t run ac odyssey at 4k/60fps ultra? Or at any preset?\n\nCause the PS5 version is likely running at something like medium settings 4k/60fps. There is no amount of optimisation where ps5 outperforms a much better gpu. It’s usually in the settings, with console versions never running at maxed out settings which are benchmarked on pc gpus.",
+                    "From": "ocbdare",
+                    "Reply_Score": 1,
+                    "Timestamp": "2020-09-23 14:44:43",
+                    "Replies": [
+                        {
+                            "Reply_Text": "Yeah 4K ultra. But this article said at launch it couldn’t do 4K 60FPS on any settings apparently. https://www.techpowerup.com/review/assassins-creed-odyssey-benchmark-performance-test/5.html",
+                            "From": "lolwutsareddit",
+                            "Reply_Score": 1,
+                            "Timestamp": "2020-09-23 16:13:58",
+                            "Replies": []
+                        }
+                    ]
+                },
+                {
+                    "Reply_Text": "Yep, after buying far cry 4 and was unplayable on pc I stayed for away from ubi for awhile,  since ps should hopefully be me stable might finally dip my toes in again after all these years.  Getting too old to spend hours fine tuning my game settings lol, just don't care as much anymore",
+                    "From": "Chasedabigbase",
+                    "Reply_Score": 1,
+                    "Timestamp": "2020-09-23 14:50:12",
+                    "Replies": [
+                        {
+                            "Reply_Text": "5 ran great on my rig thanks to its dynamic resolution option. Ate up all the vram on my 1080ti, but never dropped below 60 frames.",
+                            "From": "drumrocker2",
+                            "Reply_Score": 1,
+                            "Timestamp": "2020-09-23 15:37:44",
+                            "Replies": []
+                        }
+                    ]
+                },
+                {
+                    "Reply_Text": "It 100% can depending on the settings. PC games have bucketloads of graphic settings, so while it couldn’t do 4K@60 set to High or Ultra with ray tracing on, it for sure can at medium which is right around where console run, and consoles - even next gen- very very likely couldn’t do 4K@60 with ray tracing. My 2080ti can do 4K60FPS with ray tracing if I set it to medium-ish settings. Also, to be fair, the 2080ti came out 2 years ago.",
+                    "From": "[deleted]",
+                    "Reply_Score": 1,
+                    "Timestamp": "2020-09-23 15:36:51",
+                    "Replies": []
+                },
+                {
+                    "Reply_Text": "Eli5, good? Bad? Better? Meh?",
+                    "From": "North_Paw",
+                    "Reply_Score": 1,
+                    "Timestamp": "2020-09-23 17:51:13",
+                    "Replies": [
+                        {
+                            "Reply_Text": "Basically; the hardware can be awesome and able to run games at high resolution with great fidelity but if the software isn’t optimized to help it, even the strongest card on the market won’t be able to reach its potential.\n\nUbisoft is and at optimization. But seem like they’re going to do it for the next gen consoles right out the gates to allow 4K 60 frames per second.\n\nSo good.",
+                            "From": "lolwutsareddit",
+                            "Reply_Score": 2,
+                            "Timestamp": "2020-09-23 18:12:02",
+                            "Replies": []
+                        }
+                    ]
+                },
+                {
+                    "Reply_Text": ">Even 2080Tis couldn’t do 4K 60 FPS on AC odyssey.\n\nAt max settings, sure.  With reduced settings, of course it can.\n\nConsoles are not gonna get 'max settings' for upcoming games.  Many of these ultra/max settings options are just kinda overkill options for those with the spare power, cuz why not?\n\nAs usual, people here dont understand how this stuff works.  Over 600 upvotes for this post. smh",
+                    "From": "Seanspeed",
+                    "Reply_Score": 1,
+                    "Timestamp": "2020-09-23 18:29:27",
+                    "Replies": []
+                },
+                {
+                    "Reply_Text": "I think part of this is that AC Valhallah seems to have way fewer NPCs on screen at any one time, and maybe smaller environments period. At least from the footage we've seen so far. That makes hitting 60 a lot easier.",
+                    "From": "terran1212",
+                    "Reply_Score": 1,
+                    "Timestamp": "2020-09-23 19:15:10",
+                    "Replies": []
+                },
+                {
+                    "Reply_Text": "Remember when XBots were saying this won't run on PS5 at 4K60Hz?",
+                    "From": "_ragerino_",
+                    "Reply_Score": 1,
+                    "Timestamp": "2020-09-23 19:50:34",
+                    "Replies": []
+                },
+                {
+                    "Reply_Text": "Actually if anyone would have paid attention to the Mark Cerny presentation the PS5 isn’t actually less powerful, it is just differently powerful.\n\nThe PS5 can actually render more polygons and load textures a lot faster than the XsX\n\nit also has a special compression algorithm die inside hopefully this will mean smaller file sizes and even faster steaming textures and polygons\n\nmeaning the PS5 doesn’t need to render large amounts of the world it can only render what is in front of you making it more efficient at using its power\n\nalso they said a form of DLSS will be coming to PS5\n\nbut the XsX can handle more things like ambient occlusion, anti-aliasing, and other post processing effects. Also the XsX will probably run third party titles slightly better because it is set up more traditionally and third party devs are less likely to use the PS5’s proprietary features, so the raw horsepower of the XsX will be better there.",
+                    "From": "PoolNoodleJedi",
+                    "Reply_Score": 1,
+                    "Timestamp": "2020-09-23 21:59:20",
+                    "Replies": []
+                }
+            ]
+        }
+    ]
+}

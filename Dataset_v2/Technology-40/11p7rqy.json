@@ -1,0 +1,61 @@
+{
+    "Post_Title": "Update to the Samsung \"space zoom\" moon shots are fake",
+    "post_text ": "**This post has been updated in a newer posts, which address most comments and clarify what exactly is going on:**\n\n**[UPDATED POST](https://reddit.com/r/Android/comments/11r7dwk/last_update_on_the_samsung_moon_controversy_and/)**\n\nOriginal post:\n\nThere were some great suggestions in the comments to my original post and I've tried some of them, but the one that, in my opinion, really puts the nail in the coffin, is this one:\n\nI photoshopped one moon next to another (to see if one moon would get the AI treatment, while another would not), and managed to coax the AI to do exactly that.\n\nThis is the image that I used, which contains 2 blurred moons: https://imgur.com/kMv1XAx\n\nI replicated my original setup, shot the monitor from across the room, and got this: https://imgur.com/RSHAz1l\n\nAs you can see, one moon got the \"AI enhancement\", while the other one shows what was actually visible to the sensor - a blurry mess\n\nI think this settles it.\n\nEDIT: I've added this info to my original post, but am fully aware that people won't read the edits to a post they have already read, so I am posting it as a standalone post\n\nEDIT2: **Latest update, as per request:**\n\n1) Image of the blurred moon with a superimposed gray square on it, and an identical gray square outside of it - https://imgur.com/PYV6pva\n\n2) S23 Ultra capture of said image - https://imgur.com/oa1iWz4\n\n3) Comparison of the gray patch on the moon with the gray patch in space - https://imgur.com/MYEinZi\n\nAs it is evident, the gray patch in space looks normal, no texture has been applied. The gray patch on the moon has been filled in with moon-like details.\n\nIt's literally adding in detail that weren't there. It's not deconvolution, it's not sharpening, it's not super resolution, it's not \"multiple frames or exposures\". It's generating data.",
+    "Threads": [
+        {
+            "Reply_Text": "I am surprised this is a discussion even. Of course moon imaging capabilities of smartphones are basically cheating by superimposing images from other sources.\n\nYou can’t beat the physics, reality is not a video game.",
+            "From": "casastorta",
+            "Reply_Score": -1,
+            "Timestamp": "2023-03-13 05:41:12",
+            "Replies": [
+                {
+                    "Reply_Text": "This only happens on Samsung and Chinese brands, Apple and Google don't do this",
+                    "From": "armando_rod",
+                    "Reply_Score": 0,
+                    "Timestamp": "2023-03-13 06:01:02",
+                    "Replies": [
+                        {
+                            "Reply_Text": "True; That’s why the moon shots look like crap on those devices.",
+                            "From": "casastorta",
+                            "Reply_Score": 0,
+                            "Timestamp": "2023-03-13 06:06:22",
+                            "Replies": [
+                                {
+                                    "Reply_Text": "Exactly like it should be.",
+                                    "From": "armando_rod",
+                                    "Reply_Score": 3,
+                                    "Timestamp": "2023-03-13 06:16:54",
+                                    "Replies": [
+                                        {
+                                            "Reply_Text": "Well, those platforms also fake a bit their way through; Pixel namely slightly more. But they are doing typical phone camera AU-based image improvement crap, not completely faking some unrelated sharp moon image over any white light ball on the dark background.",
+                                            "From": "casastorta",
+                                            "Reply_Score": 1,
+                                            "Timestamp": "2023-03-13 10:11:31",
+                                            "Replies": [
+                                                {
+                                                    "Reply_Text": "Apple and Google don't fake texture, but keep telling yourself that",
+                                                    "From": "armando_rod",
+                                                    "Reply_Score": -1,
+                                                    "Timestamp": "2023-03-13 12:26:14",
+                                                    "Replies": [
+                                                        {
+                                                            "Reply_Text": "You just keep telling yourself that I claim that they \"fake texture\" (whatever that means to you :-D) if it makes you feel better. Self-care is important :-D",
+                                                            "From": "casastorta",
+                                                            "Reply_Score": 1,
+                                                            "Timestamp": "2023-03-13 13:53:46",
+                                                            "Replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

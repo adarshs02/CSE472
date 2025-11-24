@@ -1,0 +1,243 @@
+{
+    "Post_Title": "I googled \"ps5 custom design\" and well.. I'm not disappointed. Excited!",
+    "post_text ": "nan",
+    "Threads": [
+        {
+            "Reply_Text": "People are gonna have a field day with designing these. Such a simple, yet great idea",
+            "From": "[deleted]",
+            "Reply_Score": 413,
+            "Timestamp": "2020-10-08 02:37:35",
+            "Replies": [
+                {
+                    "Reply_Text": "The moment the 3D Printing people can build a CAD Model, we're going to get a ton of custom panels floating around.",
+                    "From": "AndrewJamesDrake",
+                    "Reply_Score": 149,
+                    "Timestamp": "2020-10-08 05:01:22",
+                    "Replies": [
+                        {
+                            "Reply_Text": "Too large for most 3D printers that most likely have. Also way too expensive to print imo.",
+                            "From": "sekazi",
+                            "Reply_Score": 51,
+                            "Timestamp": "2020-10-08 11:40:08",
+                            "Replies": [
+                                {
+                                    "Reply_Text": "There is no such thing as too expensive",
+                                    "From": "[deleted]",
+                                    "Reply_Score": 50,
+                                    "Timestamp": "2020-10-08 11:58:11",
+                                    "Replies": [
+                                        {
+                                            "Reply_Text": "Just by going by the size of the PS5 dimensions I would have to say it would use at minimum a quarter of a spool but more likely half. I cannot even imagine the amount of supports and clean up required. Then add probably multiple days to print I would likely not sell one side for less than $60 if I were to print one but I cannot since the printers I have access to cannot get to 390mm. My personal cannot even get to the width of 260mm. A $10 injection molded set would be much better and look better.",
+                                            "From": "sekazi",
+                                            "Reply_Score": 18,
+                                            "Timestamp": "2020-10-08 12:05:31",
+                                            "Replies": [
+                                                {
+                                                    "Reply_Text": "My estimates put it at 25% spool, 3 session print on an Ender Pro.\n\nMars Elegoo is about double.",
+                                                    "From": "VaguelyShingled",
+                                                    "Reply_Score": 2,
+                                                    "Timestamp": "2020-10-08 14:22:23",
+                                                    "Replies": []
+                                                },
+                                                {
+                                                    "Reply_Text": "If people make 3D objects designed in parts that clip together it could work. Otherwise yeah that will be a hurdle to jump.",
+                                                    "From": "[deleted]",
+                                                    "Reply_Score": 1,
+                                                    "Timestamp": "2020-10-09 14:56:36",
+                                                    "Replies": []
+                                                },
+                                                {
+                                                    "Reply_Text": "I know nothing about 3D printing, so can you explain how it works in the case of the PS5? Assuming that Sony does not release the \"blueprints\" of these pieces, how does someone figure out the exact dimensions with all the curves and bits that allow it to attach to the chassis?",
+                                                    "From": "Varekai79",
+                                                    "Reply_Score": 0,
+                                                    "Timestamp": "2020-10-08 19:17:56",
+                                                    "Replies": [
+                                                        {
+                                                            "Reply_Text": "Likely just 3D scan the panels then you can import them and do what you want with them and print. Most printers that people have like the Ender-3 or Prusa i3 will have to split it into 3-4 parts to print and then glue them together.",
+                                                            "From": "sekazi",
+                                                            "Reply_Score": 2,
+                                                            "Timestamp": "2020-10-08 19:23:31",
+                                                            "Replies": [
+                                                                {
+                                                                    "Reply_Text": "Fascinating, thanks. Here's some poor man's gold! 🥇",
+                                                                    "From": "Varekai79",
+                                                                    "Reply_Score": 2,
+                                                                    "Timestamp": "2020-10-08 20:00:46",
+                                                                    "Replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Reply_Text": "Well yes but there industrial sized printers out there, right? How the fuck else do we make so much plastic for so cheap??",
+                                                    "From": "Dankie_Spankie",
+                                                    "Reply_Score": -7,
+                                                    "Timestamp": "2020-10-08 12:19:39",
+                                                    "Replies": [
+                                                        {
+                                                            "Reply_Text": "So called industrial 3d printing is not much more practical than regular 3d printing. You seem to be confusing it with injection moulding which is how the majority of plastic items are made",
+                                                            "From": "Jumpierwolf0960",
+                                                            "Reply_Score": 11,
+                                                            "Timestamp": "2020-10-08 13:03:40",
+                                                            "Replies": []
+                                                        },
+                                                        {
+                                                            "Reply_Text": "Right but aren’t they made with injection mould?",
+                                                            "From": "20dogs",
+                                                            "Reply_Score": 4,
+                                                            "Timestamp": "2020-10-08 12:25:47",
+                                                            "Replies": []
+                                                        },
+                                                        {
+                                                            "Reply_Text": "The vast majority of plastic stuff isn't 3D printed. We used plastics far before 3D printing was even a thing",
+                                                            "From": "Radulno",
+                                                            "Reply_Score": 1,
+                                                            "Timestamp": "2020-10-08 14:39:46",
+                                                            "Replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Reply_Text": "Juicero , if you remember that",
+                                            "From": "flaker111",
+                                            "Reply_Score": 1,
+                                            "Timestamp": "2020-10-08 20:03:31",
+                                            "Replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Reply_Text": "Maybe they'll sell a fin with a clip on it, so you can print your own design and just snap it onto the clip",
+                                    "From": "News_of_Entwives",
+                                    "Reply_Score": 3,
+                                    "Timestamp": "2020-10-08 13:25:13",
+                                    "Replies": []
+                                },
+                                {
+                                    "Reply_Text": "In terms of size, there's a website called ShapeWays that will manufacture an STL file into many different kinds of plastic and even metal (If you really want to make your wallet cry) Their max sizes are enough.  If we get STLs for the PS5 side panels, I'm definitely going to print one in a mint/teal color if that's available.",
+                                    "From": "[deleted]",
+                                    "Reply_Score": 1,
+                                    "Timestamp": "2020-10-08 15:18:52",
+                                    "Replies": []
+                                },
+                                {
+                                    "Reply_Text": "That’s why company’s need to make them with plastic molds and such. The way those panels come off and the simplicity of it really makes me think Sony has their own plans of selling different kinds of panels themselves.",
+                                    "From": "bctucker1983",
+                                    "Reply_Score": 1,
+                                    "Timestamp": "2020-10-08 20:35:51",
+                                    "Replies": []
+                                },
+                                {
+                                    "Reply_Text": "Can make it into segmented pieces like most do?",
+                                    "From": "MTan989",
+                                    "Reply_Score": 1,
+                                    "Timestamp": "2020-10-09 00:33:31",
+                                    "Replies": []
+                                },
+                                {
+                                    "Reply_Text": "Too large for some but not too large for me! I can handle this easily and have some cool ideas I plan on 3D printing.",
+                                    "From": "FirstAccountSorry",
+                                    "Reply_Score": 1,
+                                    "Timestamp": "2020-10-09 14:15:56",
+                                    "Replies": []
+                                },
+                                {
+                                    "Reply_Text": "I’ll refute this by saying:\n\n1.\tYou can slice any model into small enough parts to print and then assemble.\n2.\tThis would cost, at most, $1.00-$2.00 to print in resin. Probably half that in filament.",
+                                    "From": "VaguelyShingled",
+                                    "Reply_Score": 0,
+                                    "Timestamp": "2020-10-08 14:20:45",
+                                    "Replies": [
+                                        {
+                                            "Reply_Text": "You must be using some really really cheap filament then. I took the dimensions of the PS5 and split it into 4 flat sheets. Made the thickness 4mm which I believe to be adequate but I think the actual thickness is even higher on the PS5. So with 4 perfectly flat sheets with no hooks or supports I come out to $8.61 for the 336g of filament. That is over a quarter of a spool for just a flat sheet of 1 side of the PS5. https://i.imgur.com/lfHD2cx.jpg",
+                                            "From": "sekazi",
+                                            "Reply_Score": 1,
+                                            "Timestamp": "2020-10-08 14:55:02",
+                                            "Replies": [
+                                                {
+                                                    "Reply_Text": "so basically 5 dollars of a good PLA Filament? yeah thats not expensive m8.",
+                                                    "From": "Awes0meApple",
+                                                    "Reply_Score": 0,
+                                                    "Timestamp": "2020-10-08 19:19:31",
+                                                    "Replies": [
+                                                        {
+                                                            "Reply_Text": "That said $8.61 and that is for average PLA. If you are printing it for yourself then fine. Double that price if you do both sides. If you are selling add the $1-$2 per hour of printing and that adds up. That is $38 for the time of each panel. $94 for both panels when selling.",
+                                                            "From": "sekazi",
+                                                            "Reply_Score": 1,
+                                                            "Timestamp": "2020-10-08 19:28:37",
+                                                            "Replies": [
+                                                                {
+                                                                    "Reply_Text": "Obviously buying them from someone else is gonna be a lot more expensive. But printing yourself is pretty viable i guess.",
+                                                                    "From": "Awes0meApple",
+                                                                    "Reply_Score": 0,
+                                                                    "Timestamp": "2020-10-08 20:22:25",
+                                                                    "Replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Reply_Text": "'expensive to print'\n\nLol, it would cost less than $20 to print. Nobody ever said you have to print it in one piece either, although of course that would be optimal.",
+                                    "From": "AdonaelWintersmith",
+                                    "Reply_Score": 1,
+                                    "Timestamp": "2021-01-01 09:43:33",
+                                    "Replies": [
+                                        {
+                                            "Reply_Text": "As I said below if you factor in the person wanting it then it would be around $94 after factoring material and time. Even more because this could only be printed vertically which takes longer. I could print for $20 but there is no chance I would sell anything below $1/hr.",
+                                            "From": "sekazi",
+                                            "Reply_Score": 1,
+                                            "Timestamp": "2021-01-01 14:23:35",
+                                            "Replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Reply_Text": "I imagine it's already started.",
+                            "From": "WhatAGoodDoggy",
+                            "Reply_Score": 4,
+                            "Timestamp": "2020-10-08 11:35:13",
+                            "Replies": []
+                        },
+                        {
+                            "Reply_Text": "What's the total height of one of these panels? You might be to use a laser cutter on acrylic.",
+                            "From": "RealmRPGer",
+                            "Reply_Score": 1,
+                            "Timestamp": "2020-10-08 20:38:41",
+                            "Replies": []
+                        },
+                        {
+                            "Reply_Text": "The white panels are removable, so I can see a lot of people doing custom artwork on on the panels and selling them on Etsy.",
+                            "From": "usernamewamp",
+                            "Reply_Score": 1,
+                            "Timestamp": "2020-10-08 22:05:36",
+                            "Replies": []
+                        },
+                        {
+                            "Reply_Text": "I'm already working on it lol.\n\nI got a few ideas I'm working on. The fun thing will be irregular shaped panels. I am planning on doing a lot of weird designs that will click in just right.\n\nOne of the fun ones is that can hold up the PS5 in the air. It'll be similar in shape to a Tie Fighter, the PS5 will sit comfortably on a base between the two panels.\n\nAnother fun one I have will be a panel that can hold games, controllers, headset etc.\n\nAnd the impossible one is a panel(s) that connect to other game consoles on the side. So PS5 in center, other consoles on the side. The Switch would be easy to hold. But trying to hold an Xbox Series X? Challenge accepted.",
+                            "From": "FirstAccountSorry",
+                            "Reply_Score": 1,
+                            "Timestamp": "2020-10-09 14:20:53",
+                            "Replies": []
+                        },
+                        {
+                            "Reply_Text": "Lool I've just stared to do this",
+                            "From": "SaulMas",
+                            "Reply_Score": 1,
+                            "Timestamp": "2021-02-28 20:07:41",
+                            "Replies": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

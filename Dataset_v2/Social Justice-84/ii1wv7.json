@@ -1,0 +1,181 @@
+{
+    "Post_Title": "🦀🦀🦀🦀 /r/offensivememesnshit has been banned 🦀🦀🦀🦀",
+    "post_text ": "One down, a billion more to go.\n\nSpecial thanks to the angry commenter who informed me on this with a slur ridden comment, I'm sure all the comments on this one will be just as calm and respectful.",
+    "Threads": [
+        {
+            "Reply_Text": "OP, can we see said slur-ridden comment?",
+            "From": "RoboticPaladin",
+            "Reply_Score": 27,
+            "Timestamp": "2020-08-28 13:30:09",
+            "Replies": [
+                {
+                    "Reply_Text": "The comment was \"`[REDACTED]` you `[REDACTED]` for banning our sub\" -- which betrays the same fundamental misunderstanding that is held in common by so many bigots: the idea that AHS has the power to ban a subreddit.\n\nReddit, Inc. bans subreddits. But, in a functional way, the blame and responsibility for those subreddits being banned lies with the users and moderators - who openly and pointedly do things that they know will get their user accounts and subreddits suspended.",
+                    "From": "Bardfinn",
+                    "Reply_Score": 14,
+                    "Timestamp": "2020-08-28 14:00:32",
+                    "Replies": [
+                        {
+                            "Reply_Text": "> Reddit, Inc. bans subreddits\n\nThe most amusing part is that if they put in the **TINIEST** effort to look like they weren't a ban evasion sub then they wouldn't have been banned.",
+                            "From": "Biffingston",
+                            "Reply_Score": 9,
+                            "Timestamp": "2020-08-28 14:40:59",
+                            "Replies": []
+                        },
+                        {
+                            "Reply_Text": "Play stupid games...",
+                            "From": "RoboticPaladin",
+                            "Reply_Score": 2,
+                            "Timestamp": "2020-08-28 14:02:36",
+                            "Replies": []
+                        }
+                    ]
+                },
+                {
+                    "Reply_Text": "The problem is that the sub auto-deletes those, so I get the notification on the app and when I click it it leads me to nothing and then it's gone.\n\nIf you know a way to access it I'd love to share it and other hilarious hate comments I've got here.",
+                    "From": "lurebat",
+                    "Reply_Score": 37,
+                    "Timestamp": "2020-08-28 13:36:08",
+                    "Replies": [
+                        {
+                            "Reply_Text": "Removeddit might work, depending on how fast they deleted it.",
+                            "From": "RoboticPaladin",
+                            "Reply_Score": 21,
+                            "Timestamp": "2020-08-28 13:36:45",
+                            "Replies": [
+                                {
+                                    "Reply_Text": "We take steps to prevent all the ways that trolls seek to circumvent our moderation.",
+                                    "From": "Bardfinn",
+                                    "Reply_Score": 31,
+                                    "Timestamp": "2020-08-28 13:55:56",
+                                    "Replies": [
+                                        {
+                                            "Reply_Text": "What do you mean?",
+                                            "From": "RoboticPaladin",
+                                            "Reply_Score": 7,
+                                            "Timestamp": "2020-08-28 13:56:25",
+                                            "Replies": [
+                                                {
+                                                    "Reply_Text": "Comment undeleter bots - we ban them. Our automod is set up to yank comments that are hateful, obscene, and/or derailing the purpose of the subreddit, which prevents the vast majority of archiving systems from reading them - sadly, the Reddit infrastructure still sends comment notifications to the person the comment is responding to, before AutoMod can yank the comment. We're considering the pros and cons of ways to prevent that, too.\n\nWe have regular meetings where we discuss how we can lessen the power and impact of hatred on Reddit communities.",
+                                                    "From": "Bardfinn",
+                                                    "Reply_Score": 28,
+                                                    "Timestamp": "2020-08-28 14:07:14",
+                                                    "Replies": [
+                                                        {
+                                                            "Reply_Text": "So I'm not a mod and probably have no idea what I'm talking about, but wouldn't it be more useful for us to keep the hateful comments available on places like Removeddit so we can have receipts?",
+                                                            "From": "RoboticPaladin",
+                                                            "Reply_Score": 8,
+                                                            "Timestamp": "2020-08-28 14:12:46",
+                                                            "Replies": [
+                                                                {
+                                                                    "Reply_Text": "Receipts for whom? Who are we trying to persuade? And - about what?\n\n---\n\nIf we're talking about the nature of hateful trolling that's posted to AHS, that's simple: Our words as moderators here are enough. If there was some real necessity such that someone _needed_ the content of a comment which a hateful troll left here - that's almost always captured in one of our log files or in the ban \"paperwork\" we create when we ban an account. If there's a _legal_ need, then a court could ask us and we'd comply (if they didn't just subpoena Reddit, Inc. for the text of the comments).\n\nWho are we persuading?\n\nIf we're persuading good faith users - they know already that this happens across Reddit. /r/redditsecurity's latest post discusses the scope and nature of the problem. Good faith moderators who've taken steps to shield their communities from hatred and harassment become the targets of co-ordinated efforts to harass.\n\nPersuade bad faith users? They know - and they want it spread as much as possible. They glory in undelete tools and bots - any way that allows them to flount and circumvent the rules of Reddit and a subreddit, and the technological access controls of the site and a subreddit. **They're not happy unless they're afforded the ability to exercise illicit power over someone else who cannot (easily) stop them and who is harmed by the exercise of that power.**\n\nPersuade admins? They have access to all content on the site, already. They have the ultimate \"receipts\".\n\nPersuade journalists? If it became necessary to do so, we could add a journalist or researcher to our moderator team, and they could read the material for themselves -- we could also approve specific comments temporarily - which makes them publicly readable. That -- sourcing material to a journalist -- is something we've brainstormed.\n\nWe also think it's highly unlikely a journalist would find any utility in 99% of the removed comments here, which are ultimately just vast repetitions of slight variations on themes of trite thought-terminating cliches and statements of hatred -\n\nBut, there might be some noteworthy exceptions, so we try to plan for those contingencies.\n\n----\n\nRemoveddit, reveddit, undeletebot, etc - are not your friends. They are third-party wrappers of PushShift.\n\nPushShift is owned and operated by a reputable, accredited, upstanding academic researcher, who is not using it to harm people and who takes steps to comply with the Reddit User Agreement and the Reddit API User Agreement. He's _trustworthy_.\n\nYou have no such assurances for third-party wrappers of pushshift, (e.g. reveddit), and there's copious amounts of evidence that these systems are run by untrustworthy people - who might be compiling information about visitors, might be looking for usage patterns to help de-anonymify Reddit users, and might feel the desire to change specific data being reported back to the users of their sites.\n\n----\n\nPushShift archives a lot of Reddit activity that goes public elsewhere on the site, and serves, for most intents and purposes, as close-enough-to-receipts for that activity.",
+                                                                    "From": "Bardfinn",
+                                                                    "Reply_Score": 23,
+                                                                    "Timestamp": "2020-08-28 14:54:37",
+                                                                    "Replies": []
+                                                                },
+                                                                {
+                                                                    "Reply_Text": "Let their hate be seen as they want?",
+                                                                    "From": "Biffingston",
+                                                                    "Reply_Score": 2,
+                                                                    "Timestamp": "2020-08-28 14:40:11",
+                                                                    "Replies": [
+                                                                        {
+                                                                            "Reply_Text": "Not on the sub, but on sites like Removeddit.",
+                                                                            "From": "RoboticPaladin",
+                                                                            "Reply_Score": 0,
+                                                                            "Timestamp": "2020-08-28 14:40:49",
+                                                                            "Replies": []
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "Reply_Text": "Mods are still able to view the removed comments for \"reciept\" purposes. Although what you'd need the reciepts for, beyond satisfying your morbid curiosity, I can't fathom.\n\nYou can also still see the comments in the user's post history; they're just de-listed from the sub.\n\nAllowing the comments to get captured by one of the various archiving sites would essentially require leaving the comments up for a period of time (which fluctuates based on how busy reddit is that day) before removing them, which would require all such removals to be manual rather than automatic, and that's a tremendous extra burden to put on the mods with very little tangible benefit.",
+                                                                    "From": "TheNewPoetLawyerette",
+                                                                    "Reply_Score": 2,
+                                                                    "Timestamp": "2020-08-28 14:53:05",
+                                                                    "Replies": []
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Reply_Text": "Wouldn't it be better to allow the comments to be archived?",
+                                                            "From": "aka-Kash",
+                                                            "Reply_Score": 0,
+                                                            "Timestamp": "2020-08-28 20:53:29",
+                                                            "Replies": [
+                                                                {
+                                                                    "Reply_Text": "As I mentioned below - 99% of them are variations on the theme of useless, empty hack rhetoric. They're not qualitatively different than the empty, useless hack rhetoric that backs up bigotry elsewhere on Reddit. They're noise. They're \"Nu-Spam\" -- garbage that can be generated by a GPT-2 or GPT-3 text generation model given a sufficient training set.\n\nWe're not providing that training set to the people who want to _Make Reddit Die_.",
+                                                                    "From": "Bardfinn",
+                                                                    "Reply_Score": 3,
+                                                                    "Timestamp": "2020-08-28 21:05:17",
+                                                                    "Replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Reply_Text": "no dice :( https://www.removeddit.com/r/AgainstHateSubreddits/comments/i1xz4u/roffensivememesnshit_is_a_ban_evasion_for/",
+                                    "From": "lurebat",
+                                    "Reply_Score": 2,
+                                    "Timestamp": "2020-08-28 13:41:12",
+                                    "Replies": [
+                                        {
+                                            "Reply_Text": "Darn.",
+                                            "From": "RoboticPaladin",
+                                            "Reply_Score": 5,
+                                            "Timestamp": "2020-08-28 13:42:13",
+                                            "Replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Reply_Text": "[deleted]",
+                            "From": "[deleted]",
+                            "Reply_Score": 1,
+                            "Timestamp": "2020-08-28 13:38:25",
+                            "Replies": [
+                                {
+                                    "Reply_Text": "I should have, but too late now.\n\nI've now downloaded an app that will supposedly save my notifications history so I could get them in the future.",
+                                    "From": "lurebat",
+                                    "Reply_Score": 2,
+                                    "Timestamp": "2020-08-28 13:43:05",
+                                    "Replies": [
+                                        {
+                                            "Reply_Text": "[removed]",
+                                            "From": "[deleted]",
+                                            "Reply_Score": 1,
+                                            "Timestamp": "2020-08-29 14:48:09",
+                                            "Replies": [
+                                                {
+                                                    "Reply_Text": "Hey! Your comment was removed because it contains a username ping or a link to a user's profile page. We disallow those, to prevent harassment (or even the _appearance_ of harassment). If you feel this username mention is _absolutely vital_ to the legitimate goals and ends of /r/AgainstHateSubreddits and that the purpose you're undertaking _cannot_ be performed any other way, please message the mods regarding your concern.\n\nFeel free to resubmit your comment without the username mention included.\n\nThanks!\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/AgainstHateSubreddits) if you have any questions or concerns.*",
+                                                    "From": "AutoModerator",
+                                                    "Reply_Score": 1,
+                                                    "Timestamp": "2020-08-29 14:48:09",
+                                                    "Replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Reply_Text": "[removed]",
+                                            "From": "[deleted]",
+                                            "Reply_Score": 1,
+                                            "Timestamp": "2020-08-29 15:07:03",
+                                            "Replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
