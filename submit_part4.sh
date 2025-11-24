@@ -63,7 +63,7 @@ python $SCRIPT_PATH \
     --dataset_path $DATASET_PATH \
     --output_file $OUTPUT_FILE \
     --llama_model meta-llama/Llama-3.2-3B-Instruct \
-    --qwen_model Qwen/Qwen2.5-3B-Instruct \
+    --qwen_model Qwen/Qwen3-4B \
     --num_threads 8 \
     --device cuda
 
