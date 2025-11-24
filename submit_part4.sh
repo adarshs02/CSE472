@@ -5,7 +5,7 @@
 #SBATCH --partition=gpu                   # GPU partition
 #SBATCH --gres=gpu:1                      # Request 1 GPU
 #SBATCH --cpus-per-task=8                 # Number of CPU cores
-#SBATCH --mem=32G                         # Memory requirement
+#SBATCH --mem=64G                         # Memory requirement (increased for 2 models)
 #SBATCH --time=24:00:00                   # Time limit (24 hours)
 #SBATCH --mail-type=BEGIN,END,FAIL        # Email notifications
 #SBATCH --mail-user=your_email@asu.edu    # Your email
@@ -53,11 +53,17 @@ OUTPUT_FILE="user_simulation_results_${SLURM_JOB_ID}.json"
 SCRIPT_PATH="./cse472project2_part4_sol.py"
 
 # Run the script with multiple threads
+# Using two models:
+# - Llama-3.2-3B-Instruct for mediation generation
+# - Qwen2.5-3B-Instruct for user simulation
 echo "Starting Part 4 simulation..."
+echo "Using Llama for mediation, Qwen for simulation"
 echo "======================================"
 python $SCRIPT_PATH \
     --dataset_path $DATASET_PATH \
     --output_file $OUTPUT_FILE \
+    --llama_model meta-llama/Llama-3.2-3B-Instruct \
+    --qwen_model Qwen/Qwen2.5-3B-Instruct \
     --num_threads 8 \
     --device cuda
 
